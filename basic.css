@@ -1,0 +1,365 @@
+*{
+    font-family: arial;
+    margin: 0;
+    border: border-box;
+}
+/**header 1 navigations**/
+#head_one{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(27, 25, 34);
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+.border{
+    border: 0.1rem solid transparent;
+    border-radius: 3px;
+}
+.border:hover{
+    border: 0.05rem solid white;
+    border-radius: 2px;
+}
+/**logo**/
+.logo{
+    height: 50px;
+    width: 130px;
+    margin: 3px; 
+}
+/**location**/
+.location{
+    height: 35px;
+    width: 172px;
+    margin: 3px 3px 3px 0px;
+    padding: 9px 0px 6px 6px;
+    background-color: rgb(27, 25, 34);
+    color: aliceblue;
+ 
+}
+.hello{
+    font-size: 12px;
+    color: rgb(181, 181, 181);
+}
+/**search bar**/
+.search{
+    height: 40px;
+    width: 670px;
+    margin: 10px 6px 10px 10px;
+    border-radius: 5px;
+    display: flex;
+}
+.search-color{
+    background-color: #febd68;
+}
+.search-color:hover{
+    background-color: #ffaf47;
+}
+.choose{
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    font-size: 13px;
+    border: none;
+}
+.choose-color{
+    background-color: #f3f3f3;
+}
+.choose-color:hover{
+    background-color: #cdcccc;
+}
+.search-input{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+}
+.icon{
+    width: 50px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(57, 45, 37);
+}
+/**select language**/
+.select{
+    width: 65px;
+    height: 30px;
+    margin: 3px;
+    padding: 20px 0px 0px 5px;
+}
+.select-language{
+    width: 60px;
+    height: 20px;
+    border: none;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(27, 25, 34);
+}
+/**Sign in account**/
+.sign-in{
+    height: 35px;
+    width: 150px;
+    margin: 3px;
+    padding: 9px 0px 6px 6px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.hello-account{
+    font-size: 13px;
+    color: #f3f3f3;
+}
+/**Returns and orders**/
+.order{
+    height: 35px;
+    width: 66px;
+    margin: 3px;
+    padding: 9px 0px 6px 6px;
+    font-size: 15px;
+    color: aliceblue;
+}
+/** Cart **/
+.cart-icon{
+    height: 35px;
+    width: 65px;
+    margin: 3px;
+    padding: 9px 0px 6px 6px;
+    color: #f3f3f3;
+    background-color: rgb(27, 25, 34);
+    font-size: 30px;
+    display: flex;
+}
+.cart{
+    font-size: 15px;
+    padding-top: 16px;
+}
+/**    84058048         header 2 navigations       97597557       **/
+.head_two{
+    height: 37px;
+    width: 100%;
+    background-color: rgb(32, 47, 59);
+    justify-content: space-evenly;
+    display: flex;
+}
+.first{
+    padding: 6px 6px 6px 15px;
+    color: aliceblue;
+    margin: 1px;
+}
+.second{
+    padding: 6px;
+    font-size: 15px;
+    color: aliceblue;
+    margin: 1px;
+}
+.third{
+    padding: 6px;
+    font-size: 15px;
+    color: aliceblue;
+    margin: 1px;
+}
+.fourth{
+    padding: 6px;
+    font-size: 15px;
+    color: aliceblue;
+    margin: 1px;
+}
+.fifth{
+    padding: 6px;
+    font-size: 15px;
+    color: aliceblue;
+    margin: 1px;
+}
+.sixth{
+    padding: 6px;
+    font-size: 15px;
+    color: aliceblue;
+    margin: 1px;
+}
+.seventh{
+    padding: 6px;
+    font-size: 15px;
+    color: aliceblue;
+    margin: 1px;
+}
+.eighth{
+    padding: 6px;
+    font-size: 15px;
+    color: aliceblue;
+    margin: 1px;
+}
+.ninth{
+    padding: 6px;
+    font-size: 15px;
+    color: aliceblue;
+    margin: 1px;
+}
+/** HERO SECTION **/
+.hero-section{
+    background-color: #e3dddd;
+}
+/** hero section background image **/
+.main-hero{
+    background-image: url("amazon01.jpg");
+    height: 600px;
+    background-size: cover;
+}
+/** different shopping boxes **/
+.the-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    height: 550px;
+}
+.boxes{
+    height: 400px;
+    width: 323px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top: -350px;
+    background-color: rgb(255, 255, 255);
+}
+.shop-image{
+    width: 310px;
+    height: 270px;
+    margin: auto;
+    position: absolute;
+    left: 20px;
+    bottom: 60px;
+}
+.shop-title{
+    margin: 10px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    word-spacing: 1px;
+}
+.see-more{
+    color: #007185;
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+/** odd one out BOX**/
+.odd-box{
+    height: 420px;
+    width: 343px;
+    margin: 10px;
+    position: relative;
+    top: -350px;
+}
+.create-account{
+    width: 95%;
+    height: 130px;
+    padding: 10px;
+    background-color: white;
+}
+.button-sign-in{
+    background-color: #fde546;
+    width: 95%;
+    height: 33px;
+    border: none;
+    margin-left: 7px;
+    border-radius: 7px;
+}
+.button-sign-in:hover{
+    background-color: #ffce39;
+}
+.sponsor{
+   position: absolute;
+   left: 20px;
+   bottom: 0px;
+}
+
+/** ----------FOOTER----------- **/
+.footer-one{
+    width: 100%;
+    height: 49px;
+}
+.to-top{
+    height: 100%;
+    width: 100%;
+    color: white;
+    border: none;
+    background-color: #314153;
+}
+.to-top:hover{
+    background-color: #475460;
+}
+.footer-two{
+    width: 100%;
+    height: 390px;
+    color: #f3f3f3;
+    background-color: #24303c;
+    justify-content: center;
+    display: flex;
+}
+.section{
+    width: 15%;
+    line-height: 27px;
+    list-style: none;
+    margin-top: 50px;
+}
+.links{
+    font-size: 14px;
+    color: #e3dddd;
+    margin-left: 40px;
+}
+.more-links{
+    height: 140px;
+    background-color: #24303c;
+    border-top: 0.1px solid #737375;
+    justify-content: center;
+}
+.image-and-lang{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 90px;
+    margin-top: 30px;
+    height: 44px;
+}
+.lang{
+    width: 90px;
+    height: 35px;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 3px;
+    background-color: #24303c;
+    margin: 33px 0px 0px 50px;
+    color: rgb(232, 228, 228);
+    font-size: 13px;
+    justify-content: center;
+}
+.countrys{
+    display: flex;
+    justify-content: center;
+    margin: 15px 200px 0px 200px;
+    color: #e3dddd;
+    font-size: 12px;
+}
+.footer-three{
+    width: 100%;
+    height: 165px; 
+    background-color: #131A22;  
+    column-span: all;
+}
+.bottom{
+    color: #d3d1d1;
+    column-count: 5;
+    column-gap: 75px;
+    font-size: 12px;
+    margin: 40px 300px 0px 300px;
+}
+.very-bottom{
+    color: #e3dddd;
+    font-size: 12px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+

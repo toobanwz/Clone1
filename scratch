@@ -1,0 +1,27 @@
+<select>
+                            <optgroup>select language</optgroup>
+                            <option value="english">
+                               <input type="radio" id="english" value="en" name="language"/>
+                                <lable for="english">English - EN</lable>
+                            </option>
+                            <option value="hindi">
+                                <input type="radio" id="hindi" value="hi" name="language"/>
+                                <lable for="hindi">हिंदी - HI</lable>
+                            </option>
+                            <option value="tamil">
+                                <input type="radio" id="tamil" value="ta" name="language"/>
+                                <lable for="tamil">தமிழ் -TA</lable>
+                            </option>
+                            <option value="telegu">
+                                <input type="radio" id="telegu" value="te" name="language"/>
+                                <lable for="telegu">తెలుగు - TE</lable>
+                            </option>
+                            <option value="malyalam">
+                                <input type="radio" id="malyalam" value="ml" name="language"/>
+                                <lable for="malyalam">മലയാളം - ML</lable>
+                            </option>
+                            <option value="marathi">
+                                <input type="radio" id="marathi" value="ma" name="language"/>
+                                <lable for="tel">मराठी - MA</lable>
+                            </option>
+                        </select>
